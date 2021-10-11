@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#top {
+    position: fixed;
+    flex-wrap: wrap;
+    margin-right: 70%;
+}
+
+ul {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.container1,
+.container2, 
+.container3,
+.container4 {
+    margin-left: 35%;
+}
