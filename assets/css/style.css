@@ -28,3 +28,13 @@ ul li {
 .container4 {
     margin-left: 35%;
 }
+
+div {
+    display: flex;
+}
+
+.container3 img {
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+}
