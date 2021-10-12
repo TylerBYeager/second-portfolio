@@ -5,6 +5,16 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    background-color: lightblue;
+}
+
+#top {
+    position: fixed;
+    flex-wrap: wrap;
+    margin-right: 70%;
+}
+
 ul {
     padding: 10px;
     margin-left: 40px;
@@ -18,11 +28,13 @@ ul li {
 
 img {
     max-width: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .self {
-    width: 200px;
-    margin-left: 40%;
+    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 40%;
 }
 
 .container1,
@@ -30,6 +42,8 @@ img {
 .container3,
 .container4 {
     margin-left: 35%;
+    font-size: 20px;
+    text-align: center;
 }
 
 .container3 img {
@@ -40,12 +54,39 @@ img {
 
 div {
     display: flex;
-}
-
-
-
-#top {
-    position: fixed;
     flex-wrap: wrap;
-    margin-right: 70%;
+    justify-content: space-between;
+    color: transparent;
 }
+
+.hidden {
+    text-align: center;
+    font-size: 23px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    #top {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    ul {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .container1,
+    .container2, 
+    .container3,
+    .container4 {
+        margin: auto;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+}    
