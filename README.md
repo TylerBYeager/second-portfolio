@@ -3,7 +3,8 @@ Hi! My name is Tyler Brian Yeager and I am a Full-Stack developer in training. I
 
 ## Details about this project
 
-This is my second attempt at a professional portfolio. Initially I had ideas of utilizing some of the other css frameworks that we had used in class, however, I really wanted the chance to build a portfolio from scratch again. In particular, I wanted to experiment with a fixed position nav bar that changed when certain break points in screen size were reached. I believe I achieved that goal.  
+This is my second attempt at a professional portfolio. Initially I had ideas of utilizing some of the other css frameworks that we had used in class, however, I really wanted the chance to build a portfolio from scratch again. In particular, I wanted to experiment with a fixed position nav bar that changed when certain break points in screen size were reached. I believe I achieved that goal.  In addition to this change, I have added a link to my updated resume as well. 
+![Snapshot](https://user-images.githubusercontent.com/89880190/136886516-7b1d25a1-3c19-45e3-92f0-c38210fd8fb9.png)
 
 ## Some Code Snippets
 Below are a few code snippets that I enjoyed and what they do. 
@@ -79,25 +80,16 @@ Lastly, this bit of code was my first attempt at using media screen to change th
 
 To get a working copy on your machine you will need a few things such as access to Gitbash or Terminal, a working SSH key, a Github account, and a code reader like VS Code
 
-Getting your clone:
-
-```
 Once you have a working SSH key added to your Github account, navigate to the Second-Portfolio Repository. Click the green "code" button on the top right, select the ssh option, and save a copy to your clipboard.  
-```
-
+![Snapshot2](https://user-images.githubusercontent.com/89880190/136886696-a8402d27-1085-432f-878a-6d53560da5ed.png)
 
 Next: 
-
-```
 Open Gitbash or Terminal and navigate to a directory that you would like to add the cloned repository. Once in your desired directory type in
 "git clone 'right click to paste'" and press enter. This will clone the repository onto your personal machine.
-```
+
 
 Lastly: 
-
-```
 Type 'ls' into your Gitbash or Terminal to see a list of items within the directory. If you have done the previous steps correctly then you should see a respository titled "Second-Portfolio." Simply type in "code ." to open it in your code editor of choice and have fun!
-```
 
 
 ### Built With
