@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(216, 216, 50);
 }
 
 #top {
@@ -28,12 +28,20 @@ ul li {
 
 img {
     max-width: 100%;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #9e9e9e;
+}
+
+img:hover {
+    box-shadow: 10px 10px 5px #f52e2e;
+}
+
+img:hover:active {
+    box-shadow: -10px -10px 5px #2eacf5;
 }
 
 .self {
     max-width: 50%;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 40%;
 }
 
@@ -42,6 +50,7 @@ img {
 .container3,
 .container4 {
     margin-left: 35%;
+    margin-right: 20%;
     font-size: 20px;
     text-align: center;
 }
@@ -55,7 +64,7 @@ img {
 div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: transparent;
 }
 
